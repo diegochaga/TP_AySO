@@ -1,0 +1,6 @@
+root:x:0:0:root:/root:/bin/bash
+vagrant:x:1000:1000:vagrant,,,:/home/vagrant:/bin/bash
+lxd:x:105:65534::/var/lib/lxd/:/bin/false
+pollinate:x:109:1::/var/cache/pollinate:/bin/false
+vboxadd:x:999:1::/var/run/vboxadd:/bin/false
+sync:x:4:65534:sync:/bin:/bin/sync
